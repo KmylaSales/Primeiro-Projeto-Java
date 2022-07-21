@@ -1,0 +1,46 @@
+package banco;
+
+public abstract class Conta extends iConta {
+	
+	private static final int AGENCIA_PADRAO = 0001;
+	
+	
+	protected int agencia;
+	protected int numero;
+	protected double saldo;
+	
+	public int getAgencia() {
+		return agencia;
+	}
+
+	public int getNumero() {
+		return numero;
+	}
+
+	public double getSaldo() {
+		return saldo;
+	}
+
+	@Override
+	void sacar(double valor) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	void depositar(double valor) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	void transferir(double valor, Conta destino) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public static int getAgenciaPadrao() {
+		return AGENCIA_PADRAO;
+	}
+
+}

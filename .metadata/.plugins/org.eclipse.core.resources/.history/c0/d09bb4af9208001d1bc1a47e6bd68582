@@ -1,0 +1,17 @@
+package banco;
+
+public class ContaPoupanca extends Conta {
+	
+	public void imprimirExtrato() {
+		System.out.println("=== Extrato Conta Poupança ===");
+		super.imprimirInfoComuns();
+	}
+
+	@Override
+	public void transferir(double valor, Conta destino) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+}

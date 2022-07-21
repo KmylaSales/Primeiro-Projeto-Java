@@ -1,0 +1,30 @@
+package banco;
+
+public class ContaCorrente extends Conta {
+	
+	private static int SEQUENCIAL = 1;
+	
+	public ContaCorrente() {
+		super.agencia = getAgenciaPadrao();
+		super.numero = SEQUENCIAL++;
+	}
+
+	@Override
+	void sacar(double valor) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	void depositar(double valor) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	void transferir(double valor, Conta destino) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}
